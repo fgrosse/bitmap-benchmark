@@ -1,11 +1,11 @@
 ```bash
+BenchmarkIntersectionRoaring-4           	 1000000	      1295 ns/op
 BenchmarkIntersectionPilosa-4            	    2000	   1124238 ns/op
 BenchmarkIntersectionPilosaInternal-4    	    1000	   1470149 ns/op
-BenchmarkIntersectionRoaring-4           	 1000000	      1295 ns/op
 
+BenchmarkUnionRoaring-4                  	    5000	    320838 ns/op
 BenchmarkUnionPilosa-4                   	    1000	   1791906 ns/op
 BenchmarkUnionPilosaInternal-4           	    1000	   2157900 ns/op
-BenchmarkUnionRoaring-4                  	    5000	    320838 ns/op
 
 BenchmarkSetRoaring-4                    	20000000	        70.2 ns/op
 BenchmarkSetPilosa-4                     	20000000	        92.6 ns/op
